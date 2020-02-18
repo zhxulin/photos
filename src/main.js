@@ -1,5 +1,4 @@
-import "core-js/stable"
-import "regenerator-runtime/runtime"
+import "@babel/polyfill"
 import Vue from 'vue'
 
 import 'normalize.css/normalize.css' // A modern

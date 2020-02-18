@@ -9,12 +9,13 @@ const routes = [
     path: '/',
     component: Home,
     name: 'Home',
-    meta: { title: '司机管理' }
+    meta: { title: '首页' }
   }
 ]
 
 const router = new VueRouter({
   mode: 'history', // require service support
+  base:"/photos",
   scrollBehavior: () => ({ y: 0 }),
   routes
 })
